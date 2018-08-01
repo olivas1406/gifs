@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Giphy Gifs</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kirang+Haerang" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+</head> 
+<body>  
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 movieGif">
+                <p class="titleMe">Giphy API Gifs
+                <h5 class="subTitleMe">Click on the gifs to start/stop them</h5>
+            </div>
+        </div>
+        <div class="row topicMe">
+            <div class="topicText">Select a topic from below or add your own</div>
+            <div class="col-12 r1c1 buttonMe">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-9 r2c1 gifMe"> 
+            </div>
+            <div class="col-2 r2c2 inputMe"> 
+                <form action="/action_page.php">
+                    <p class="addAmovie">Add a topic:</p><br>
+                    <input type="text" name="Movie" class="addMe" required="required">
+                    <br><br>
+                    <input type="submit" value="Submit" class="clickMe">
+                </form> 
+            </div>
+        </div>
+    </div>
+    <script src="./assets/javascript/script.js"></script>  
+</body>
+</html> 

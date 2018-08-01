@@ -1,0 +1,109 @@
+.container-fluid{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+.movieGif {
+    background: darkblue;
+}
+
+.titleMe {
+    font-size: 46px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+    font-family: 'Rammetto One', cursive;
+    margin-top: 2%;
+}
+
+.r2c2 {
+    height: 17%;
+    border: solid 1px rgb(80, 76, 131);
+    border-radius: 12px;
+    background: lightgray;   
+    margin-top: 1%;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.addAmovie {
+    margin-bottom: -6%;
+    padding-top: 2%;
+    color: darkblue;
+}
+
+.buttonMe {
+    border: solid 1px darkgray;
+    background: rgb(231, 230, 230);   
+}
+
+.r1c1 {
+    text-align: center;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+button {
+    border-radius: 12px;
+    background: white;
+    color: darkblue;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.gifMeUp {
+    margin: 1% auto 1% auto;
+    padding: 0 1% 0 1%;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.gifMeUp2 {
+    float: left; 
+    margin: 1% 1% 1% 1%;
+    cursor: pointer;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+}
+
+.clickMe {
+    margin: -2% 0 2% 0;
+    background: darkblue;
+    color: white;
+    cursor: pointer;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+p {
+    color: black;
+}
+
+h5 {
+    text-align: center;
+    margin: 0 auto 2% auto;
+    color: white;
+}
+
+.subTitleMe {
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 30px;
+}
+
+.topicMe {
+    margin: 0 auto 0 auto;
+}
+
+.topicText {
+    margin: 0 auto 0 auto;
+    background-color: rgb(238, 240, 155);
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    /* font-family: 'Shadows Into Light', cursive; */
+    font-size: 22px;
+    text-align: center;
+    width: 60%;
+    padding: 1%;
+}
