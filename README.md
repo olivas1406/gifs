@@ -11,7 +11,7 @@ of time.  To get started, simply click one of the predefined buttons at the top 
 input field to generate a new button.
 
 ---
-[CLICK ME to see it in action](https://olivas1406.github.io/Movie_Gifs/)
+[CLICK ME to see it in action](https://olivas1406.github.io/gifs/)
 <br>
 ---
 ![Movie Gif Screen Cap](./gif.png)
